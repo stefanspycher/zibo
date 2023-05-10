@@ -30,7 +30,7 @@ main .hero picture {
   right: 0;
   object-fit: cover;
   box-sizing: border-box;
-  box-shadow: 3xp 3px 10px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 main .hero img {
