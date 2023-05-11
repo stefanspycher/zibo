@@ -12,3 +12,23 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+
+/* c/p zibo */
+/*
+#footer-container {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+}
+
+.footer {
+  font-family: "Jura", sans-serif, "google";
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+}
+*/
