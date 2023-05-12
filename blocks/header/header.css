@@ -31,7 +31,11 @@
     list-style: none;
 }
 
-.nav-brand ul>li:hover,
-.nav-brand ul>li:active {
+.nav-brand a {
+    text-decoration: none;
+}
+
+.nav-brand a:hover,
+.nav-brand a:active {
     color: white;
 }

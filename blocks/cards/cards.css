@@ -1,13 +1,14 @@
-.cards > ul {
+.cards>ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 16px;
+  /* grid-gap: 16px; */
+  grid-gap: 0px;
 }
 
-.cards > ul > li {
+.cards>ul>li {
   border: 1px solid var(--highlight-background-color);
   background-color: var(--background-color)
 }
@@ -20,11 +21,11 @@
   line-height: 0;
 }
 
-.cards .cards-card-body > *:first-child {
+.cards .cards-card-body>*:first-child {
   margin-top: 0;
 }
 
-.cards > ul > li img {
+.cards>ul>li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
