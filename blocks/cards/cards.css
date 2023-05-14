@@ -17,12 +17,15 @@
   line-height: 0;
 }
 
-/* .cards .cards-card-body>*:first-child {
-  margin-top: 0;
-} */
-
 .cards>ul>li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+@media (max-width:420px) {
+  .cards>ul>li {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -11,6 +11,8 @@
     background-repeat: no-repeat;
 }
 
+
+
 .nav-brand ul {
     background-color: black;
     text-align: center;
@@ -20,6 +22,7 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 
 .nav-brand ul>li {
@@ -38,4 +41,16 @@
 .nav-brand a:hover,
 .nav-brand a:active {
     color: white;
+}
+
+
+@media (max-width:420px) {
+    .nav-brand {
+        background-position: 0 0;
+        background-size: 25%;
+    }
+
+    .nav-brand ul {
+        display: none;
+    }
 }

@@ -4,6 +4,7 @@
     --zibo-font-grey: #787878;
     /* widths */
     --zibo-desktop-width: 60rem;
+    --zibo-mobile-width: 30rem;
 }
 
 
@@ -24,9 +25,13 @@ body {
     margin: 0 auto;
 }
 
+
+
 header {
     height: 250px;
 }
+
+
 
 main {
     background-color: var(--zibo-main-background-color);
@@ -55,4 +60,20 @@ h1 {
     text-transform: none;
     color: #787878;
     margin-bottom: 1rem;
+}
+
+/* changes for mobile.  */
+@media (max-width:420px) {
+    body {
+        /* width: var(--zibo-mobile-width); */
+        width: 100vw;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
 }

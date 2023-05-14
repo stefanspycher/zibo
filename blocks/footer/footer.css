@@ -15,12 +15,29 @@ footer ul {
   justify-content: space-evenly;
 }
 
+
+
 footer li {
   list-style: none;
   width: 25%;
   font-size: 0.8rem;
   margin: auto;
   text-align: left;
+}
+
+@media (max-width:420px) {
+  footer ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: var(--zibo-mobile-width);
+  }
+
+  footer li {
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
 }
 
 footer li a {
