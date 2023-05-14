@@ -1,34 +1,42 @@
 footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  /* padding: 0 2rem; */
+  background-color: var(--zibo-main-background-color);
+
 }
 
-footer .footer {
-  max-width: 1200px;
+footer ul {
+  width: var(--zibo-desktop-width);
   margin: auto;
-}
-
-footer .footer p {
-  margin: 0;
-}
-
-
-/* c/p zibo */
-/*
-#footer-container {
-  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: var(--body-font-size-s);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-
 }
 
-.footer {
-  font-family: "Jura", sans-serif, "google";
-  font-size: 0.7rem;
-  font-weight: normal;
-  font-style: normal;
+footer li {
+  list-style: none;
+  width: 25%;
+  font-size: 0.8rem;
+  margin: auto;
   text-align: left;
 }
-*/
+
+footer li a {
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+footer p>a {
+  text-decoration: none;
+}
+
+/* footer .footer {
+  max-width: 1200px;
+  margin: auto;
+} */

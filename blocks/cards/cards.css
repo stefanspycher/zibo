@@ -1,29 +1,25 @@
-.cards>ul {
+.cards>ul>li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  /* grid-gap: 16px; */
-  grid-gap: 0px;
-}
-
-.cards>ul>li {
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 1px; */
   border: 1px solid var(--highlight-background-color);
   background-color: var(--background-color)
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+.cards ul {
+  padding: 0;
 }
 
 .cards .cards-card-image {
   line-height: 0;
 }
 
-.cards .cards-card-body>*:first-child {
+/* .cards .cards-card-body>*:first-child {
   margin-top: 0;
-}
+} */
 
 .cards>ul>li img {
   width: 100%;

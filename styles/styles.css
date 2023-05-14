@@ -1,3 +1,12 @@
+:root {
+    /* colors */
+    --zibo-main-background-color: rgba(0, 0, 0, 0.8);
+    --zibo-font-grey: #787878;
+    /* widths */
+    --zibo-desktop-width: 60rem;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,39 +18,37 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #787878;
+    color: var(--zibo-font-grey);
     font-family: "Jura", sans-serif, "google";
-    width: 960px;
+    width: var(--zibo-desktop-width);
     margin: 0 auto;
 }
 
 header {
-    height: 300px;
+    height: 250px;
 }
 
 main {
-    /* width: 960px; */
-    /* height: 100vh; */
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 50px;
+    background-color: var(--zibo-main-background-color);
+    padding: 3.1rem;
 }
 
 
 /*container für den inhalt unter der Navigation*/
 #main-content {
-    width: 960px;
+    width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 50px 50px 50px 50px;
+    background-color: var(--zibo-main-background-color);
+    padding: 3rem;
 }
 
 p {
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
 }
 
 h1 {
     font-family: "Jura", sans-serif, "google";
-    font-size: 34px;
+    font-size: 2.1rem;
     font-weight: normal;
     font-style: normal;
     text-align: left;
