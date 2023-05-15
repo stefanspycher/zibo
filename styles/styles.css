@@ -5,6 +5,7 @@
     /* widths */
     --zibo-desktop-width: 60rem;
     --zibo-mobile-width: 30rem;
+    --zibo-font-family: "Jura", sans-serif, "google";
 }
 
 
@@ -20,7 +21,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: var(--zibo-font-grey);
-    font-family: "Jura", sans-serif, "google";
+    font-family: var(--zibo-font-family);
     width: var(--zibo-desktop-width);
     margin: 0 auto;
 }

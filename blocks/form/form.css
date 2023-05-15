@@ -1,10 +1,19 @@
+main .form .form-select-wrapper,
+main .form .field-wrapper,
+main .form .form-text-wrapper,
+main .form .form-email-wrapper {
+    display: block;
+    width: 80%;
+}
+
+
 main .form input,
 main .form textarea,
 main .form select {
     border: 1px solid var(--overlay-background-color);
-    padding: 11px;
-    border-radius: 0;
-    width: 100%;
+    padding: 0.8rem;
+    border-radius: .25rem;
+    width: 50%;
     max-width: 50rem;
     box-sizing: border-box;
     margin-top: 4px;
@@ -13,7 +22,7 @@ main .form select {
 }
 
 main .form textarea {
-    min-height: 100px;
+    min-height: 200px;
 }
 
 main .form input:hover,
@@ -22,10 +31,10 @@ main .form select:hover {
 }
 
 main .form label {
-    width: 100%;
-    display: block;
+    width: 25%;
+    display: inline-block;
     font-size: var(--body-font-size-xs);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     box-sizing: border-box;
     font-weight: 800;
 }
@@ -41,11 +50,13 @@ main .form .field-wrapper {
 }
 
 main .form .form-checkbox-wrapper {
-    display: flex;
+    /* display: flex; */
+    display: block;
 }
 
 main .form .form-checkbox-wrapper input[type='checkbox'] {
-    display: none;
+    /* display: none; */
+    display: block;
 }
 
 main .form .form-checkbox-wrapper input[type='checkbox']+label::before {
@@ -55,7 +66,7 @@ main .form .form-checkbox-wrapper input[type='checkbox']+label::before {
     height: 30px;
     width: 30px;
     content: ' ';
-    background: url('./checkbox.svg');
+    /* background: url('./checkbox.svg'); */
     background-size: contain;
 }
 
@@ -73,9 +84,15 @@ main .form .form-checkbox-wrapper label {
 
 main .form .button {
     cursor: pointer;
-    background: var(--button-background-color);
-    color: var(--button-text-color);
-    border-radius: var(--button-border-radius);
-    ;
-    padding: var(--button-padding);
+    background: #787878;
+    color: white;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    font-family: var(--zibo-font-family);
+    text-transform: lowercase;
+}
+
+u {
+    text-decoration: none;
+    color: red;
 }
